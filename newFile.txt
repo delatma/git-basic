@@ -1,2 +1,5 @@
 Difference between ADD, COMMIT, PUSH commands:
 
+ADD command updates the index of the current folder by preparing objects in a staged status before commit.  
+COMMIT command records the changes made to the local repository after they have been added.
+PUSH command updates the remote repository of the associated objects updated in the local repository.
